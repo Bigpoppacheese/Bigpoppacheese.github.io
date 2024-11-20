@@ -1,32 +1,139 @@
 <!DOCTYPE html>
 <html lang="nl">
-  
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrieCT home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css" type="text/css">
-  </head>
-  
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DrieCT Home</title>
+  <link rel="stylesheet" href="https://unpkg.com/bamboo.css" type="text/css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #2a2a2a; /* Donkergrijs */
+      color: #d4d4d4; /* Zacht lichtgrijs */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #3b4a4e; /* Gedempt grijsblauw */
+      color: #eaeaea;
+      text-align: center;
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #a8b09a; /* Gedempt olijfgroen */
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    p {
+      background-color: #353535; /* Donkergrijs */
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #cfcfcf;
+      background-color: #3e4b4f; /* Gedempt grijsblauw */
+      padding: 15px;
+      border-left: 5px solid #a8b09a; /* Gedempt olijfgroen */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      margin: 20px 0;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px auto;
+      border: 3px solid #3b4a4e; /* Gedempt grijsblauw */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    a {
+      color: #a8b09a; /* Gedempt olijfgroen */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #3b4a4e; /* Gedempt grijsblauw */
+      color: #eaeaea;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
     <h1>TikTok</h1>
+  </header>
 
-    <h2>Wat is TikTok?</h2>
-    <p>TikTok is een gratis social media app, waar korte video's gemaakt kunnen worden. Deze video's hebben vaak een lengte van 3 tot 15 seconden maar er kunnen ook video's van 60 seconden geplaatst worden. De kijkers van deze filmpjes kunnen de video liken, er op reageren en delen op andere social media platformen.
-   </p>
+  <main>
+    <section>
+      <h2>Wat is TikTok?</h2>
+      <p>
+        TikTok is een gratis social media app, waar korte video's gemaakt kunnen worden. Deze video's hebben vaak een lengte van 3 tot 15 seconden maar er kunnen ook video's van 60 seconden geplaatst worden. De kijkers van deze filmpjes kunnen de video liken, er op reageren en delen op andere social media platformen.
+      </p>
+    </section>
 
-    <h2>Door wie is het uitgevonden?</h2>
-    <p>In 2012 richtte Zhang Yiming het bedrijf ByteDance op, TikToks moederbedrijf. In 2016 lanceerde het de app Douyin. Dit was een app speciaal voor China, met hetzelfde concept als dat van TikTok. In 2017 lanceerde ByteDance, na het succes van Douyin, TikTok.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/220px-TikTok_logo.svg.png" alt="" width="500" height="600"> 
+    <section>
+      <h2>Door wie is het uitgevonden?</h2>
+      <p>
+        In 2012 richtte Zhang Yiming het bedrijf ByteDance op, TikToks moederbedrijf. In 2016 lanceerde het de app Douyin. Dit was een app speciaal voor China, met hetzelfde concept als dat van TikTok. In 2017 lanceerde ByteDance, na het succes van Douyin, TikTok.
+      </p>
+    </section>
+
+    <section>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/220px-TikTok_logo.svg.png" alt="TikTok logo">
+    </section>
 
     <blockquote>
-    "For a very long time, I was merely watching TikTok videos without making any of them myself, because it's a product mainly for young people"
+      "For a very long time, I was merely watching TikTok videos without making any of them myself, because it's a product mainly for young people."
     </blockquote>
-    
-    <h2>Zal Tiktok worden geblokkeerd in de VS</h2>
-    <p><strong>TikTok zal alleen worden verbannen als het bedrijf van het platform geen in de VS gevestigd bedrijf kan of wil vinden dat de in de VS gevestigde gebruikers van de app zal beheren en ervoor zal zorgen dat er geen gegevens van die gebruikers naar China worden verzonden.</p>
-    <p>Hier een link naar <a href="https://www.tiktok.com/" target="_blank">TikTok</a>.</p>
-  
-    <script src="index.js"></script>
-  </body>
-</html> 
+
+    <section>
+      <h2>Zal TikTok worden geblokkeerd in de VS?</h2>
+      <p>
+        <strong>TikTok zal alleen worden verbannen</strong> als het bedrijf van het platform geen in de VS gevestigd bedrijf kan of wil vinden dat de in de VS gevestigde gebruikers van de app zal beheren en ervoor zal zorgen dat er geen gegevens van die gebruikers naar China worden verzonden.
+      </p>
+      <p>
+        Hier een link naar <a href="https://www.tiktok.com/" target="_blank">TikTok</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 DrieCT. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
